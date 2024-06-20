@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+
+
+main {
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(171, 174, 206, 0.993);
+}
+
+
+#main-heading {
+    font-size: 45px;
+    padding-top: 35px;
+}
+
+
+#date-and-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.container {
+    padding: 30px 50px;
+    min-width: 400px;
+    width: 450px;
+}
+
+
+.sec-1 {
+    width: 100%;
+    padding: 5px 0px 0px 20px;
+    background-color: blueviolet;
+}
+
+.sec-1 h1 {
+    font-size: 40px;
+    padding: 5px 0px 3px 0px;
+}
+
+.sec-2 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.sec-2 input {
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 8px;
+    padding: 0px 10px;
+    border-bottom: 3px solid blueviolet;
+    background-color: rgb(214, 232, 238);
+}
+
+.sec-3 {
+    display: flex;
+    justify-content: right;
+    background-color: white;
+}
+
+.sec-3 button {
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    color: blueviolet;
+    background-color: transparent;
+    padding: 10px;
+    margin: 7px 25px 7px 0px;
+    transition: 0.3s ease-in-out;
+}
+
+.sec-3 button:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+
+#submit {
+    font-weight: 600;
+    border: 3px solid blueviolet;
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+#submit:hover {
+    background-color: blueviolet;
+    color: white;
+    border: 3px solid white;
+}
+
+
+#display_date_and_time {
+    font-size: 35px;
+    padding: 23px 0px;
+}
+
+#display_date_and_time span {
+    color: blueviolet;
+}
+
+
+#h-2 {
+    color: blueviolet;
+    font-size: 35px;
+    padding-bottom: 23px;
+}
+
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer input {
+    width: 60px;
+    height: 60px;
+    outline: none;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 7px 7px 15px black;
+    border: 2px solid blueviolet;
+}
+
+.timer label {
+    color: blueviolet;
+    font-weight: bolder;
+    padding: 15px 0px;
+}
+
+
+.display-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 25px 20px 25px;
+}

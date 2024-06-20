@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1 id="main-heading">Count Down Timer</h1>
+        <div id="date-and-time">
+
+            <div class="container">
+                <div class="sec-1">
+                    <label for="enter-date">Enter Ending Date :</label>
+                    <h1 id="set-date">YYYY-MM-DD</h1>
+                </div>
+                <div class="sec-2">
+                    <input id="enter-date" name="enter-date" type="date" required>
+                </div>
+                <div class="sec-3">
+                    <button id="date-btn">OK</button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="sec-1">
+                    <label for="enter-time">Enter Ending Time :</label>
+                    <h1 id="set-time">0 : 00</h1>
+                </div>
+                <div class="sec-2">
+                    <input id="enter-time" name="enter-time" type="time" required>
+                </div>
+                <div class="sec-3">
+                    <button id="time-btn">OK</button>
+                </div>
+            </div>
+        </div>
+        <input id="submit" type="submit">
+        <h1 id="display_date_and_time">
+            <span>Ends At:</span> YYYY-MM-DD <span>On</span> 0 : 00
+        </h1>
+        <h1 id="h-2">Ending In :</h1>
+        <div class="timer">
+            <div class="display-time">
+                <input id="days" type="text" value="0" readonly>
+                <label for="days">Days</label>
+            </div>
+            <div class="display-time">
+                <input id="hours" type="text" value="0" readonly>
+                <label for="hours">Hours</label>
+            </div>
+            <div class="display-time">
+                <input id="minutes" type="text" value="0" readonly>
+                <label for="minutes">Minutes</label>
+            </div>
+            <div class="display-time">
+                <input id="seconds" type="text" value="0" readonly>
+                <label for="seconds">Seconds</label>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>
